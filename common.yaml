@@ -1,0 +1,43 @@
+style: style.txt
+
+defaults:
+  size: 1024x1024
+  quality: medium
+  assemble: true
+
+scenes:
+  title-panel:
+    description: >
+      Title slide for the Autism Awareness Series. Consistent layout across
+      all carousels — series label, title, amber divider, subtitle, episode
+      tag, URL. Deep navy background, typographic only.
+    refs:
+      - ./title.png
+    prompt_prefix: >
+      Flat graphic illustration. Deep navy (#1a1f2e) background.
+      Square 1:1 panel. Thin horizontal amber line at top and bottom edge.
+      Typographic layout only — no illustrative elements except a thin amber
+      horizontal divider line between the title and subtitle.
+      Match the layout, typography, and visual style of the reference image exactly.
+
+  full-panel:
+    description: >
+      Single full-width panel. Deep navy background. Flat graphic style.
+      Centered composition. Suitable for concept, hook, and landing slides.
+    prompt_prefix: >
+      Flat graphic illustration. Deep navy (#1a1f2e) background.
+      Square 1:1 panel. Thin horizontal amber line at top and bottom edge.
+      No text unless specified in the prompt.
+
+  split-screen:
+    description: >
+      Two-column panel divided by a thin vertical white line down the center.
+      Left side uses cool blue (#4a90d9) tones. Right side uses warm amber
+      (#f5a623) tones. Dark background throughout. Flat graphic style.
+    prompt_prefix: >
+      Flat graphic illustration. Deep navy (#1a1f2e) background.
+      Square 1:1 panel. Thin horizontal amber line at top and bottom edge.
+      Thin vertical white line dividing the panel into two equal columns.
+      Left column: cool blue (#4a90d9) accent color.
+      Right column: warm amber (#f5a623) accent color.
+      No text unless specified in the prompt.

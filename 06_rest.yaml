@@ -1,0 +1,105 @@
+imports:
+  - common.yaml
+
+output_dir: generated/rest/
+
+panels:
+  # ── Panel 1: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    prompt: >
+      Minimalist title slide. Match the layout and typography of the reference
+      image exactly.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "Rest Is Not"
+      Second line of title in white: "What You Think"
+      Below amber divider: white subtitle text "It's not about quiet. It's about novelty."
+      Bottom right: small amber text "#6 — Rest & Recovery"
+      Bottom center: very small white text "raphink.info/autism"
+
+  # ── Panel 2: Hook ───────────────────────────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two contrasting scenes side by side within one
+      panel. Left: a figure sitting alone in a very quiet, minimal room —
+      a couch, a lamp, silence implied. Their energy bar at the bottom is
+      nearly empty, draining. Right: the same figure at a busy, loud
+      event — people around them, noise implied by speech bubbles — but
+      their energy bar is filling up, amber and rising.
+      Large bold white text at bottom: "Quiet isn't always rest."
+      Second line in amber: "For autistic people, it depends on what's in the quiet."
+
+  # ── Panel 3: The NT model of rest ───────────────────────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Blue tones. A simple equation-style layout:
+      Left: icons for "low stimulation" — a calm face, low volume icon,
+      a moon/night icon. Arrow pointing right to: "REST" with a full
+      battery icon in blue. Clean, simple, linear. This is the common
+      assumption about rest.
+      Small blue label at top: "THE COMMON MODEL"
+      Large white text at bottom: "Less stimulation = more rest."
+      Second line in blue: "That's not how it works for everyone."
+
+  # ── Panel 4: The actual variable — novelty load ──────────────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Amber tones. Center: a large funnel or filter
+      icon labeled "NOVELTY LOAD" in amber. Two inputs feeding into the
+      funnel from the left: "Unfamiliar people" and "Unpredictable context"
+      — both amber with warning icons. Output from the funnel on the right:
+      a depleting battery icon. Below the funnel: a separate small icon
+      showing "Known domain + familiar people" feeding into a filling
+      battery. The point: novelty, not stimulation, is the drain.
+      Small amber label at top: "THE ACTUAL VARIABLE"
+      Large white text at bottom: "It's not about noise level."
+      Second line in amber: "It's about novelty load."
+
+  # ── Panel 5: The inversion ───────────────────────────────────────────────────
+  - page: 5
+    scene: split-screen
+    prompt: >
+      Split panel. Left side (amber/depleting): a figure sitting in a
+      quiet, empty room. One other person is there — unfamiliar, implied
+      by a question mark above them. The autistic figure's head has a
+      small radar/scan icon — still running. Energy bar nearly empty.
+      Label: "Quiet. Unfamiliar. Draining."
+      Right side (blue/restoring): a figure at what looks like a busy
+      conference or event — noise, people, movement — but the people
+      around them share the same interest icon (a book, a circuit board).
+      The radar icon above their head is calm. Energy bar filling.
+      Label: "Loud. Predictable. Restorative."
+      Large white text at bottom: "The paradox of autistic rest."
+      Second line in amber: "Context matters more than volume."
+
+  # ── Panel 6: What actually restores ─────────────────────────────────────────
+  - page: 6
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Three restorative scenarios shown as clean
+      icon blocks, each with a filling battery beside them:
+      1. A figure alone with their special interest icon (book, instrument,
+      circuit board) — label "Deep focus on known domain"
+      2. Two figures talking, both with the same interest icon above —
+      label "Same-neurotype conversation"
+      3. A figure in a familiar, predictable environment — label
+      "Known context, no social navigation required"
+      All three battery icons are filling, amber.
+      Large white text at bottom: "Rest = low novelty demand."
+      Second line in amber: "Not necessarily low stimulation."
+
+  # ── Panel 7: Landing ────────────────────────────────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple battery icon, large, centered. It is
+      full and amber. Below it: a small icon of a person deep in their
+      special interest — reading, building, creating — rather than lying
+      still. The image suggests that active engagement in the right domain
+      is rest. Deep navy background, minimal.
+      Large bold white text centered: "Rest isn't stillness."
+      Second line in amber: "It's the absence of novelty."
+      Small white text at very bottom: "raphink.info/autism"

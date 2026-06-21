@@ -1,0 +1,107 @@
+output_dir: generated/spectrum/
+
+imports:
+  - common.yaml
+
+panels:
+  # ── Panel 1: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    refs:
+      - ../cpu-gpu/page_1_medium-1.png
+    prompt: >
+      Minimalist title slide. Deep navy background. Centered layout, clean
+      typographic composition. No illustrative elements except a thin amber
+      horizontal divider line between the title and subtitle.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "The Spectrum"
+      Second line of title in white: "Isn't a Line"
+      Below divider: white subtitle text "A different configuration, not a dial"
+      Bottom right: small amber text "#1 — What Is the Spectrum?"
+      Bottom center: very small white text "raphink.info/autism"
+      Thin amber border lines at very top and very bottom edges of panel.
+
+  # ── Panel 2: The common misconception ───────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A single horizontal line stretching across the panel,
+      left to right. Left end labeled "NEUROTYPICAL" in white. Right end labeled
+      "SEVERELY AUTISTIC" in white. A small marker sits somewhere in the middle,
+      labeled "a little autistic?" in white. Above the line, a large red X in
+      amber/red, clearly marking this as wrong. Clean, minimal, no other
+      elements.
+      Large bold white text at bottom: "Most people picture a line."
+      Second line in amber: "That's not what the spectrum means."
+
+  # ── Panel 3: Myopia — the vertical spectrum ─────────────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Center: a vertical double-headed arrow, clearly
+      labeled "MORE" at the top and "LESS" at the bottom, in white. Along the
+      arrow: three simple eye icons at different positions showing degrees of
+      blur — top eye very blurry vision lines, middle eye moderate blur, bottom
+      eye clear. To the right of the arrow: a pair of glasses icon with a green
+      checkmark, suggesting correction is possible.
+      Small label at top in white: "MYOPIA"
+      Sub-label in white: "A vertical spectrum — more or less of the same thing."
+      Small green label below glasses: "Correctable"
+      Large white text at bottom: "Myopia exists on a scale."
+      Second line in amber: "More blur. Less blur. Fixable."
+
+  # ── Panel 4: Color blindness — the horizontal spectrum ──────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Center: a horizontal row of five simple eye icons,
+      each showing a different color configuration — different hues represented
+      as colored bars or filters inside each eye, none identical, none
+      representing "more" or "less" than the others. No vertical ordering.
+      Below: a crossed-out glasses icon, suggesting it cannot be corrected
+      the same way.
+      Small label at top in amber: "COLOR BLINDNESS"
+      Sub-label in white: "A horizontal spectrum — different configurations."
+      Small amber label below crossed glasses: "Not correctable. Only compensable."
+      Large white text at bottom: "Color blindness isn't more or less vision."
+      Second line in amber: "It's a different configuration entirely."
+
+  # ── Panel 5: The autism spectrum is horizontal ──────────────────────────────
+  - page: 5
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A horizontal row of five simple human silhouette
+      icons, each in white, all the same size — none bigger or smaller than
+      the others, none positioned higher or lower. Each silhouette has a
+      small unique pattern of colored dots inside (representing different
+      neurological trait combinations) — no two patterns identical. No
+      vertical axis. No arrow suggesting more or less.
+      Small amber label at top: "THE AUTISM SPECTRUM"
+      Large white text at bottom: "Not more or less autistic."
+      Second line in amber: "Different neurological configurations."
+
+  # ── Panel 6: Compensable, not correctable ───────────────────────────────────
+  - page: 6
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two columns side by side. Left column (white/green):
+      icon of glasses with a green checkmark — label "MYOPIA: Correctable".
+      Below: simple eye icon showing clear vision after correction.
+      Right column (amber): icon of glasses with a cross — label
+      "AUTISM: Not correctable". Below: a simple toolbox or wrench icon
+      with label "Only compensable" — strategies, workarounds, adaptations.
+      Clean flat icons, no photorealism.
+      Large white text at bottom: "You can learn workarounds."
+      Second line in amber: "You're not fixing the wiring."
+
+  # ── Panel 7: Landing ────────────────────────────────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Minimalist flat vector graphic. Center: a simple color wheel or
+      horizontal rainbow arc — many different colors, no single direction,
+      no start or end point implying hierarchy. Clean, calm, balanced.
+      No figures, no icons, just the color arc on a deep navy background.
+      Large bold white text centered below: "Not a dial."
+      Second line in amber: "A different way of seeing."
+      Small white text at very bottom: "raphink.info/autism"

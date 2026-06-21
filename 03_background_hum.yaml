@@ -1,0 +1,101 @@
+imports:
+  - common.yaml
+
+output_dir: generated/background-hum/
+
+panels:
+  # ── Panel 1: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    prompt: >
+      Minimalist title slide. Match the layout and typography of the reference
+      image exactly.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "The Constant"
+      Second line of title in white: "Background Hum"
+      Below amber divider: white subtitle text "Why the autistic brain never quite stops"
+      Bottom right: small amber text "#3 — Hypervigilance"
+      Bottom center: very small white text "raphink.info/autism"
+
+  # ── Panel 2: Hook ───────────────────────────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple radar/sonar sweep — a circle with a
+      rotating scan line, concentric rings, a few blips appearing and
+      disappearing. The sweep is active and continuous. No "off" switch
+      visible anywhere. Deep navy background, amber radar elements.
+      The overall impression: this thing is always running.
+      Large bold white text at bottom: "It's not anxiety about something."
+      Second line in amber: "It's a scan that never stops."
+
+  # ── Panel 3: The map gap problem ────────────────────────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple top-down map made of white grid lines
+      on navy background — like a city map or floor plan. Most squares are
+      filled in white. A few squares are dark/empty — gaps in the map.
+      One gap has a warning icon (exclamation mark in amber) or a trapdoor
+      icon over it, suggesting danger. The filled areas feel safe; the gaps
+      feel threatening.
+      Small amber label at top: "INTOLERANCE OF UNCERTAINTY"
+      Large white text at bottom: "Any gap in the map"
+      Second line in amber: "is a potential trapdoor."
+
+  # ── Panel 4: The apartment tour ─────────────────────────────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple floor plan of an apartment — rooms
+      clearly delineated (living room, bedroom, kitchen, bathroom). A small
+      white figure icon moves through every room in sequence, a dotted amber
+      path tracing the complete tour before settling in one spot. The path
+      covers every corner. Other children figures sit in the living room
+      waiting, shown as simple white silhouettes.
+      Small white label at top: "AS A CHILD, VISITING FRIENDS..."
+      Large white text at bottom: "I had to map every room"
+      Second line in amber: "before I could sit down."
+
+  # ── Panel 5: Special interests as solid ground ──────────────────────────────
+  - page: 5
+    scene: split-screen
+    prompt: >
+      Split panel. Left side (amber/danger): a figure standing on cracked
+      uncertain ground, gaps visible, radar sweep active above their head,
+      expression neutral but alert. Right side (blue/safe): the same figure
+      standing on completely solid, mapped, fully-filled ground — no gaps,
+      no trapdoors. Above their head: a simple icon of their special interest
+      (a book, a musical note, a circuit board — anything suggesting deep
+      knowledge). The figure on the right looks settled, at ease.
+      Label at top left in amber: "Unknown territory"
+      Label at top right in blue: "Special interest domain"
+      Large white text at bottom: "A domain I know deeply"
+      Second line in amber: "is a domain with no trapdoors."
+
+  # ── Panel 6: The cost ───────────────────────────────────────────────────────
+  - page: 6
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple white outline figure, front-facing,
+      calm expression. Inside the torso: a server or processor icon with
+      a continuous spinning/processing indicator — always running, never
+      idle. An energy/battery bar beside the figure at half or below half,
+      depleting slowly. Around the figure: a calm, ordinary environment —
+      a few simple furniture icons suggesting a normal room. Nothing dramatic
+      happening. The drain is invisible from outside.
+      Large white text at bottom: "The exhaustion isn't from interacting."
+      Second line in amber: "It's from never switching off."
+
+  # ── Panel 7: Landing ────────────────────────────────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple power button icon — the classic circle
+      with a line at the top — but the button has no "off" state. The
+      indicator light is amber and permanently on. Below the button: a
+      subtle radar sweep circle, always active. Deep navy background.
+      Minimal, clean, iconic.
+      Large bold white text centered: "Not a switch."
+      Second line in amber: "A baseline."
+      Small white text at very bottom: "raphink.info/autism"

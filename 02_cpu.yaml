@@ -1,0 +1,113 @@
+output_dir: generated/cpu-gpu/
+
+imports:
+  - common.yaml
+
+panels:
+  # ── Panel 0: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    prompt: >
+      Minimalist title slide. Deep navy background. Centered layout, clean
+      typographic composition. No illustrative elements except a thin amber
+      horizontal divider line between the title and subtitle.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "Autism & the Neurotypical Brain"
+      Below divider: white subtitle text "A different architecture, not a deficit"
+      Bottom right: small amber text "#2 — Social Processing"
+      Bottom center: very small white text "raphink.info/autism"
+      Thin amber border lines at very top and very bottom edges of panel.
+
+  # ── Panel 1: Hook ───────────────────────────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Two clean white human silhouettes facing each other against a deep navy
+      background. Left silhouette: multiple parallel blue lines fan out from
+      the top of the head simultaneously, converging instantly on a simple
+      smiley face icon between them — fast, effortless, parallel. Right
+      silhouette: a single amber line traces a sequential path through 4 small
+      labeled boxes (OBSERVE, DECODE, MATCH, OUTPUT) before arriving at the
+      same smiley face icon. Lines must originate from the head area, not the
+      mouth or neck. Both silhouettes show the same result; the paths are
+      completely different. Flat vector graphic, no glow, no atmosphere.
+      Strong contrast. Sub-labels below each silhouette: left in blue "FAST.
+      EFFORTLESS. PARALLEL." right in amber "SEQUENTIAL. NON-AUTOMATIC.
+      CONSTRUCTED."
+      Large bold white text at bottom: "Your brain reads expressions."
+      Second line in amber: "Mine decodes them."
+
+  # ── Panel 2: The GPU ────────────────────────────────────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Abstract GPU chip graphic, glowing blue, many parallel lanes of data
+      flowing simultaneously to the right, converging into one smooth output —
+      a simple smiley face icon, rendered instantly. Visual impression of
+      speed and parallelism. Clean flat vector style, no photorealism.
+      The chip must be clearly labeled "GPU" in blue text inside the chip body.
+      Label in cool blue at top: "NEUROTYPICAL SOCIAL PROCESSING"
+      Sub-label in white below: "Parallel. Automatic. Fast."
+      No other text.
+
+  # ── Panel 3: The CPU ────────────────────────────────────────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Abstract CPU chip graphic, glowing amber, a single processing lane
+      running sequentially through labeled steps: OBSERVE → DECODE → MATCH →
+      SELECT → OUTPUT. Each step produces a progressively more complete face
+      expression icon, arriving at the same smiley face result as the GPU panel.
+      Clean flat vector style, no photorealism.
+      The chip must be clearly labeled "CPU" in amber text inside the chip body.
+      Label in amber at top: "AUTISTIC SOCIAL PROCESSING"
+      Sub-label in white below: "Sequential. Non-automatic. Constructed."
+      No other text.
+
+  # ── Panel 4: The cost ───────────────────────────────────────────────────────
+  - page: 5
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Center: a clean white human silhouette outline
+      against deep navy background. Inside the head: a large amber CPU chip
+      icon with a usage meter at 97%, three upward heat-line arrows above it
+      in amber. Around the figure: four simple white speech bubble outlines
+      (empty, no text) suggesting a group conversation. The figure's exterior
+      looks calm and neutral — a simple relaxed posture. The contrast is
+      between the overloaded interior and the normal-looking exterior. No
+      painterly effects, no crowd scene, no photorealism. Flat icons only.
+      Large bold white text at bottom: "The output looks the same."
+      Second line in amber: "The cost doesn't."
+
+  # ── Panel 5: The result ─────────────────────────────────────────────────────
+  - page: 6
+    scene: split-screen
+    prompt: >
+      Split panel divided by a thin vertical white line. Left side (blue
+      tones): a simple white outline figure in a social scene, relaxed
+      expression, speech bubbles around. Energy bar at bottom nearly full,
+      colored blue. Right side (amber tones): identical white outline figure
+      in the same social scene, same relaxed expression — but inside the head
+      a small amber sequential processing diagram (HEAR → PROCESS → RESPOND).
+      Energy bar at bottom nearly empty, colored amber. Figures must have
+      normal head proportions — not oversized. Flat vector style, no
+      photorealism, no painterly illustration.
+      Label at top left in blue: "Looks the same from outside."
+      Label at top right in amber: "Feels nothing alike from inside."
+      Label below left bar in blue: "ENERGY"
+      Label below right bar in amber: "ENERGY"
+
+  # ── Panel 6: Landing ────────────────────────────────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Flat vector graphic against deep navy background. Top half: two chip
+      icons side by side — left chip labeled "GPU" in blue, right chip labeled
+      "CPU" in amber. From each chip, a single colored line descends and merges
+      into one shared white line pointing down to a simple icon of two white
+      human silhouettes in conversation — neutral, neither chip highlighted as
+      better. Clean diagram, no glow, no atmosphere.
+      White text centered: "Same output. Different cost."
+      Large bold white text below: "Not a deficit."
+      Second line in amber: "A different architecture."
+      Small white text at very bottom: "raphink.info/autism"

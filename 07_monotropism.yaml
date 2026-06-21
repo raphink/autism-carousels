@@ -1,0 +1,104 @@
+imports:
+  - common.yaml
+
+output_dir: generated/monotropism/
+
+panels:
+  # ── Panel 1: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    prompt: >
+      Minimalist title slide. Match the layout and typography of the reference
+      image exactly.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "Monotropism:"
+      Second line of title in white: "One Thing at Full Depth"
+      Below amber divider: white subtitle text "Not distraction. A different attention architecture."
+      Bottom right: small amber text "#7 — Attention & Focus"
+      Bottom center: very small white text "raphink.info/autism"
+
+  # ── Panel 2: Hook ───────────────────────────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two contrasting attention models side by side.
+      Left: a lantern icon, casting diffuse light in all directions — many
+      small circles of light spreading outward. Label: "POLYTROPIC". Right:
+      a single intense spotlight or laser beam, pointing straight down into
+      one deep circle of light. Label: "MONOTROPIC". Both are on a dark
+      navy background. Neither is crossed out or marked as wrong.
+      Large bold white text at bottom: "Not less attention."
+      Second line in amber: "A different distribution."
+
+  # ── Panel 3: The depth advantage ────────────────────────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Amber tones. A single beam of light going
+      straight down into deep water — like a submarine searchlight. At
+      the bottom of the beam: a richly detailed area showing knowledge,
+      patterns, connections — represented as interconnected nodes or a
+      detailed map. Above water: a calm surface, simple. The depth is
+      where the richness is.
+      Small amber label at top: "MONOTROPIC ATTENTION"
+      Large white text at bottom: "One channel."
+      Second line in amber: "But it goes very deep."
+
+  # ── Panel 4: The switching cost ─────────────────────────────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A submarine or deep-sea diver at depth, fully
+      engaged with something at the bottom. Above: someone at the surface
+      calling down — a speech bubble with an exclamation mark or a name
+      being called. The diver has to surface first — a long amber dotted
+      line showing the ascent — before they can respond. The journey up
+      takes time and effort.
+      Small white label at top: "WHY INTERRUPTIONS COST SO MUCH"
+      Large white text at bottom: "Switching isn't turning a dial."
+      Second line in amber: "It's resurfacing from depth."
+
+  # ── Panel 5: What it looks like from outside ────────────────────────────────
+  - page: 5
+    scene: split-screen
+    prompt: >
+      Split panel. Left side (blue, observer's view): a figure calling
+      out to another figure who is deeply focused on something. The
+      focused figure doesn't respond. Above the observer: a thought
+      bubble showing interpretations — "ignoring me?", "rude?",
+      "not listening?" in blue text. Right side (amber, autistic
+      experience): the same focused figure shown from the inside —
+      completely absorbed in a deep attention tunnel, amber beam of
+      light showing full engagement. Not ignoring. Unreachable.
+      Label at top left in blue: "From outside"
+      Label at top right in amber: "From inside"
+      Large white text at bottom: "They're not ignoring you."
+      Second line in amber: "They're at depth."
+
+  # ── Panel 6: The upside ─────────────────────────────────────────────────────
+  - page: 6
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A figure in deep focus — seated, surrounded
+      by the fruits of their deep attention: a complex diagram, a stack
+      of knowledge nodes, a detailed creative work, patterns emerging.
+      The amber beam of attention is fully on this. Around the figure:
+      small icons representing what deep monotropic focus produces —
+      expertise, pattern recognition, creative depth, mastery. Warm,
+      positive, amber tones.
+      Large white text at bottom: "Depth that distributed attention"
+      Second line in amber: "can hardly match."
+
+  # ── Panel 7: Landing ────────────────────────────────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two icons side by side — left: a lantern
+      (blue, diffuse light spreading wide). Right: a spotlight or laser
+      (amber, single intense beam going deep). Below both: a simple
+      equals sign or balance symbol, suggesting equivalence not hierarchy.
+      Neither is better. Different tools for different environments.
+      Deep navy background, clean and minimal.
+      Large bold white text centered: "Not broken focus."
+      Second line in amber: "A different kind of depth."
+      Small white text at very bottom: "raphink.info/autism"

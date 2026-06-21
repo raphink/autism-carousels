@@ -1,0 +1,107 @@
+imports:
+  - common.yaml
+
+output_dir: generated/two-empathy/
+
+panels:
+  # ── Panel 1: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    prompt: >
+      Minimalist title slide. Match the layout and typography of the reference
+      image exactly.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "Two Kinds"
+      Second line of title in white: "of Empathy"
+      Below amber divider: white subtitle text "Two survival systems, not a deficit"
+      Bottom right: small amber text "#4 — The Double Empathy Problem"
+      Bottom center: very small white text "raphink.info/autism"
+
+  # ── Panel 2: Hook ───────────────────────────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two simple white human silhouettes facing each
+      other. Between them: a visual gap or disconnect — represented as a
+      thin broken line or a question mark in the space between them. Above
+      the left figure: a small amber icon of a magnifying glass or question
+      mark suggesting information-seeking. Above the right figure: a small
+      blue icon of an eye or antenna suggesting social scanning. Both figures
+      are reaching toward each other but the gap remains.
+      Large bold white text at bottom: "Autistic people lack empathy."
+      Second line in amber: "That's not what's happening."
+
+  # ── Panel 3: NT empathy — social threat detection ───────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Blue tones throughout. Center: a simple white
+      human silhouette. Around the figure: a network of faces and body
+      language icons — a smile, a frown, crossed arms, open posture —
+      all being automatically scanned and processed in parallel, like a
+      continuous feed. Above the head: a small radar/antenna icon in blue
+      suggesting automatic social scanning. The processing looks fast,
+      ambient, effortless.
+      Small blue label at top: "NEUROTYPICAL EMPATHY"
+      Sub-label in white: "Ambient social threat detection."
+      Large white text at bottom: "Is this person ok?"
+      Second line in blue: "Am I reading the room?"
+
+  # ── Panel 4: Autistic empathy — information-seeking ─────────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Amber tones throughout. Center: a simple white
+      human silhouette. The figure is leaning slightly forward, engaged.
+      Around the figure: icons suggesting direct information-gathering —
+      a clipboard, a question mark, a magnifying glass, a checklist. The
+      processing is focused and deliberate, not ambient. One arrow pointing
+      from the figure toward another person icon suggesting "what do you
+      need?"
+      Small amber label at top: "AUTISTIC EMPATHY"
+      Sub-label in white: "Active information-seeking."
+      Large white text at bottom: "What happened?"
+      Second line in amber: "What do you need?"
+
+  # ── Panel 5: The Double Empathy Problem ─────────────────────────────────────
+  - page: 5
+    scene: split-screen
+    prompt: >
+      Split panel. Left side (blue): NT figure with ambient social scanning
+      icons around them, looking at the autistic figure on the right and
+      seeing a question mark — can't read them automatically. Right side
+      (amber): autistic figure with information-seeking icons, looking at
+      the NT figure and seeing a question mark — can't parse the ambient
+      signals. Both figures are trying, both are confused by the other's
+      mode. Between them: a thin white vertical dividing line.
+      Small label at top left in blue: "Can't read the signals"
+      Small label at top right in amber: "Can't parse the ambient cues"
+      Large white text at bottom: "Both sides struggle."
+      Second line in amber: "Neither side is broken."
+
+  # ── Panel 6: Same outcome, different path ───────────────────────────────────
+  - page: 6
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two figures side by side — left in blue outline,
+      right in amber outline. Both have a simple heart or connection icon
+      above them, suggesting care for others. Left figure has ambient
+      scanning waves around them. Right figure has a direct arrow and
+      question mark. Both arrows point toward a third simple figure icon
+      between them, representing another person they care about.
+      Large white text at bottom: "Different systems."
+      Second line in amber: "Same intention: to understand."
+
+  # ── Panel 7: Landing ────────────────────────────────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two simple icons side by side — left: a blue
+      radar/antenna (ambient social scanning), right: an amber magnifying
+      glass or question mark (information-seeking). Below both: a simple
+      white bridge or connection line linking them, suggesting that
+      understanding the difference creates connection rather than division.
+      Clean, minimal, iconic. Deep navy background.
+      Large bold white text centered: "Not a deficit."
+      Second line in amber: "A different way of caring."
+      Small white text at very bottom: "raphink.info/autism"

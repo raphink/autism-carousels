@@ -1,0 +1,99 @@
+imports:
+  - common.yaml
+
+output_dir: generated/authority/
+
+panels:
+  # ── Panel 1: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    prompt: >
+      Minimalist title slide. Match the layout and typography of the reference
+      image exactly.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "Authority"
+      Second line of title in white: "Doesn't Compute"
+      Below amber divider: white subtitle text "Not defiance. A different logic gate."
+      Bottom right: small amber text "#5 — Authority & Compliance"
+      Bottom center: very small white text "raphink.info/autism"
+
+  # ── Panel 2: Hook ───────────────────────────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two figures facing each other. Left figure
+      (authority): slightly larger, standing upright, arm outstretched
+      pointing — giving an instruction. Right figure (autistic): calm,
+      neutral posture, a simple question mark above their head. Between
+      them: a speech bubble from the authority figure containing the words
+      "Because I said so." The right figure has no response bubble —
+      just stillness. No anger, no defiance — just a blank.
+      Large bold white text at bottom: "It's not defiance."
+      Second line in amber: "The instruction didn't compute."
+
+  # ── Panel 3: How NT authority works ─────────────────────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Blue tones. A simple flowchart with two nodes:
+      top node: a badge/rank icon labeled "AUTHORITY" in blue. Arrow pointing
+      down to bottom node: a checkmark icon labeled "COMPLY" in blue.
+      The path is direct, automatic, no intermediate steps. A small label
+      beside the arrow: "Social reflex". Clean, minimal, fast-looking.
+      Small blue label at top: "NEUROTYPICAL COMPLIANCE"
+      Large white text at bottom: "Rank signals compliance."
+      Second line in blue: "It's a social reflex."
+
+  # ── Panel 4: How autistic authority processing works ────────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Amber tones. A flowchart. Top node: same badge/
+      rank icon labeled "AUTHORITY" in amber. Arrow pointing right to a
+      logic gate or filter box labeled "WHY?" in amber. Two outputs from
+      the filter: one arrow going down labeled "Valid reason → ENGAGE" with
+      a green checkmark. One arrow going right labeled "No reason → BLANK"
+      with a grey dash (not an X, not defiance — just nothing). The path
+      is conditional, not automatic.
+      Small amber label at top: "AUTISTIC COMPLIANCE"
+      Large white text at bottom: "Authority needs a reason."
+      Second line in amber: "Not rank. Logic."
+
+  # ── Panel 5: The "because I said so" dead end ───────────────────────────────
+  - page: 5
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple flowchart. Start: speech bubble icon
+      with text "Because I said so." Arrow pointing to a logic gate or
+      filter box. Output: a dead end — a wall, a blank space, or a road
+      that simply stops. No checkmark, no response, no compliance. Beside
+      the dead end: the calm face of a figure with a slight neutral smile
+      — not mocking, just... elsewhere. Their brain has moved on.
+      Large white text at bottom: "The brain has already decided."
+      Second line in amber: "Pushing harder makes it worse."
+
+  # ── Panel 6: What actually works ────────────────────────────────────────────
+  - page: 6
+    scene: split-screen
+    prompt: >
+      Split panel. Left side (red/blocked, amber tones): a figure issuing
+      a command, speech bubble: "Just do it." Arrow pointing to a wall/
+      dead end. Label: "Doesn't work". Right side (green/open, blue tones):
+      a figure explaining something, speech bubble with a simple reason or
+      diagram icon. Arrow pointing to a checkmark and an engaged figure.
+      Label: "Works". Clean, flat, diagram-style. No cartoon expressions.
+      Large white text at bottom: "Skip the rank."
+      Second line in amber: "Give the reason."
+
+  # ── Panel 7: Landing ────────────────────────────────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple logic gate icon — the classic AND/OR
+      gate shape — but instead of electrical signals, the inputs are labeled
+      "REASON" (amber) and "PURPOSE" (amber), and the output is labeled
+      "ACTION" (white). Clean, minimal, iconic. The gate is open and
+      functional — not blocked. Deep navy background.
+      Large bold white text centered: "Not a switch."
+      Second line in amber: "A logic gate."
+      Small white text at very bottom: "raphink.info/autism"

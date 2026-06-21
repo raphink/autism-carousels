@@ -1,0 +1,11 @@
+Flat graphic illustration, vector style. Deep navy background (#1a1f2e) — dark but not black, providing visible contrast for white and light-colored elements. No photorealism. No atmospheric effects, no ambient glow, no painterly textures. Graphic clarity above all else.
+
+Color palette: cool blue (#4a90d9) for neurotypical/external/automatic concepts, warm amber (#f5a623) for autistic/internal/deliberate concepts, white (#ffffff) for figures, labels, and neutral elements. Background (#1a1f2e) everywhere else. High contrast between elements and background — figures and graphics should read immediately without searching.
+
+Figures are clean white or light-colored outlines/silhouettes against the dark background — not dark figures on a dark background. Strong figure/ground separation at all times.
+
+Typography: bold sans-serif for main labels, regular weight for sub-labels. All text high-contrast against background. No decorative fonts. No text that wasn't specified in the prompt.
+
+Every panel is square (1:1 ratio). A thin horizontal amber line (#f5a623) runs along the very top edge and very bottom edge of every panel — this is a mandatory visual identity element, never omitted.
+
+Style references: flat editorial infographic. Think icon design meets data visualization. Clean, punchy, immediately readable at small size. Not corporate. Not clinical. Not illustrated storybook. Not cinematic.
