@@ -1,0 +1,43 @@
+imports:
+  - common.yaml
+
+output_dir: generated/this-is-fine/
+
+panels:
+  - page: 1
+    scene: full-panel
+    refs:
+      - this_is_fine_orig.png
+    prompt: >
+      Flat graphic illustration in a simple webcomic style. Split panel
+      divided by a thin white vertical line down the center. Deep navy
+      background throughout. Amber border lines at top and bottom.
+
+      LEFT SIDE — "PSYCHOLOGICAL ANXIETY":
+      A clean, modern control room. All indicator lights on the console
+      are green. Screens show normal readings, no alerts. Everything is
+      calm and functioning perfectly. Seated at the console: a small
+      anthropomorphic white dog character wearing a tiny bowler hat, holding a
+      coffee mug, wide eyes, calm smile. Above the dog: a thought bubble
+      containing the words "what if..." in white text. The dog is visibly
+      tense despite the green lights — leaning slightly forward, watching
+      the perfectly normal console with quiet dread.
+      Small amber label at top left: "PSYCHOLOGICAL ANXIETY"
+
+      RIGHT SIDE — "AUTISTIC PHYSIOLOGICAL ANXIETY":
+      The same control room, but the console is lit up with yellow and red
+      warning lights — many indicators blinking, multiple alerts visible,
+      screens showing elevated readings. The room is noticeably more
+      chaotic. Seated at the console: the same small anthropomorphic white dog
+      character, same bowler hat, same coffee mug, same wide eyes, same
+      calm smile. Above the dog: a thought bubble containing the words
+      "this is fine" in white text. The dog looks completely unbothered
+      despite the blinking alerts — same posture, same expression as the
+      left panel.
+      Small amber label at top right: "AUTISTIC PHYSIOLOGICAL ANXIETY"
+
+      The humor and the point are identical: both dogs look the same.
+      The consoles are completely different. Flat webcomic line art style,
+      simple and clean, not photorealistic. No other text in the image.
+
+      Bottom center: very small white text "raphink.info/autism"
