@@ -43,7 +43,7 @@ panels:
       suggesting automatic social scanning. The processing looks fast,
       ambient, effortless.
       Small blue label at top: "NEUROTYPICAL EMPATHY"
-      Sub-label in white: "Ambient social threat detection."
+      Sub-label in white: "Ambient social emotional synchronization."
       Large white text at bottom: "Is this person ok?"
       Second line in blue: "Am I reading the room?"
 
@@ -59,13 +59,13 @@ panels:
       from the figure toward another person icon suggesting "what do you
       need?"
       Small amber label at top: "AUTISTIC EMPATHY"
-      Sub-label in white: "Active information-seeking."
+      Sub-label in white: "Active information-seeking/problem solving."
       Large white text at bottom: "What happened?"
       Second line in amber: "What do you need?"
 
   # ── Panel 5: The Double Empathy Problem ─────────────────────────────────────
   - page: 5
-    scene: split-screen
+    scene: full-panel
     prompt: >
       Split panel. Left side (blue): NT figure with ambient social scanning
       icons around them, looking at the autistic figure on the right and
@@ -73,9 +73,9 @@ panels:
       (amber): autistic figure with information-seeking icons, looking at
       the NT figure and seeing a question mark — can't parse the ambient
       signals. Both figures are trying, both are confused by the other's
-      mode. Between them: a thin white vertical dividing line.
-      Small label at top left in blue: "Can't read the signals"
-      Small label at top right in amber: "Can't parse the ambient cues"
+      mode. No line between them, just a visual gap.
+      Small label at top left in blue: "Social behavior matters most"
+      Small label at top right in amber: "Information matters most"
       Large white text at bottom: "Both sides struggle."
       Second line in amber: "Neither side is broken."
 
@@ -85,9 +85,8 @@ panels:
     prompt: >
       Flat vector graphic. Two figures side by side — left in blue outline,
       right in amber outline. Both have a simple heart or connection icon
-      above them, suggesting care for others. Left figure has ambient
-      scanning waves around them. Right figure has a direct arrow and
-      question mark. Both arrows point toward a third simple figure icon
+      above them, suggesting care for others. 
+      Both arrows point toward a third simple figure icon
       between them, representing another person they care about.
       Large white text at bottom: "Different systems."
       Second line in amber: "Same intention: to understand."
