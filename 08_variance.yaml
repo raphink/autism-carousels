@@ -1,0 +1,88 @@
+output_dir: generated/variance/
+
+imports:
+  - common.yaml
+
+panels:
+  # ── Panel 1: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    refs:
+      - title.png
+    prompt: >
+      Minimalist title slide. Deep navy background. Centered layout, clean
+      typographic composition. No illustrative elements except a thin amber
+      horizontal divider line between the title and subtitle.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "The Engine"
+      Second line of title in white: "and the Exhaust"
+      Below divider: white subtitle text "Same underlying causes, different presentations"
+      Bottom right: small amber text "#8 — Processing Variance"
+      Bottom center: very small white text "raphink.info/autism"
+      Thin amber border lines at very top and very bottom edges of panel.
+
+  # ── Panel 2: The Severity Misconception ────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A simple linear slider stretching across the panel
+      labeled "MILD AUTISM" on the left and "SEVERE AUTISM" on the right. 
+      A large red X marks the entire slider, showing it is a flawed concept.
+      Clean, minimal, high contrast on a deep navy background.
+      Large bold white text at bottom: "We treat the spectrum like a dial."
+      Second line in amber: "Assuming different behaviors mean different conditions."
+
+  # ── Panel 3: The Unified Core (The Object) ──────────────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Center: A stylized central processor chip glowing amber, 
+      labeled "THE ENGINE". Thick data streams feed into it from the left, 
+      labeled "Unfiltered Input" and "Continuous Scanning". The processor chip 
+      is encapsulated in a box labeled "Open-Gate Preconscious Filter".
+      Large bold white text at bottom: "At the core, the architecture is identical."
+      Second line in amber: "A high-gain system flooded with unfiltered data."
+
+  # ── Panel 4: Outcome A — Emulation Layer ──────────────────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. The amber processor chip from panel 3 connects to a massive, 
+      dense, complex software block layer floating above it, labeled "MANUAL EMULATION (MASKING)". 
+      This software block processes the data streams and outputs a clean speech bubble icon. 
+      Next to it, a battery meter graphic shows a single blinking red bar, labeled "3% Energy".
+      Large bold white text at bottom: "Outcome A: Running an emulation layer."
+      Second line in amber: "Standard social behavior delivered at 97% CPU."
+
+  # ── Panel 5: Outcome B — System Saturation ──────────────────────────────────
+  - page: 5
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. The same amber processor chip from panel 3, but the 
+      incoming data streams are massive, completely engulfing the chip. Connected 
+      motor-planning and verbal-execution blocks are greyed out and crossed with dashed lines, 
+      labeled "OFFLINE: Saturated". The output is a continuous, closed vector wave loop labeled "Stimming".
+      Large bold white text at bottom: "Outcome B: Complete hardware saturation."
+      Second line in amber: "Verbal and motor pathways go offline to protect the core."
+
+  # ── Panel 6: Synthesis — Same Engine, Different Load ────────────────────────
+  - page: 6
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two columns side-by-side pointing back to the same central 
+      processor chip icon at the top center. Left column (amber): Profile of a calm silhouette 
+      running a heavy internal software trace layer. Right column (amber): Profile of a non-verbal 
+      silhouette using native rhythmic movement to discharge input load. 
+      Large bold white text at bottom: "Masking is a costly coping mechanism, not a definition."
+      Second line in amber: "Shutdowns are a thermal throttling defense, not a deficit."
+
+  # ── Panel 7: Landing ────────────────────────────────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Minimalist flat vector graphic. Deep navy background. Center: A clean blueprint-style 
+      schematic diagram of a complex hardware processor unit with clear, balanced input gates. 
+      No characters or icons, pure structural design layout.
+      Large bold white text centered below: "Same architecture. Different environmental load."
+      Second line in amber: "Masking and shutdown are two outputs of the same engine."
+      Small white text at very bottom: "raphink.info/autism"
