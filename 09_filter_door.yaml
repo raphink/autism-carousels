@@ -1,0 +1,130 @@
+imports:
+  - common.yaml
+
+output_dir: generated/filter-vs-door/
+
+panels:
+  # ── Panel 1: Title ──────────────────────────────────────────────────────────
+  - page: 1
+    scene: title-panel
+    prompt: >
+      Minimalist title slide. Match the layout and typography of the reference
+      image exactly.
+      Top: small amber label "AUTISM AWARENESS SERIES"
+      Center: large bold white text "Not a Filter."
+      Second line of title in white: "A Door."
+      Below amber divider: white subtitle text "Why the same brain can't filter anything — and can block out the world"
+      Bottom right: small amber text "#9 — The Unifying Frame"
+      Bottom center: very small white text "raphink.info/autism"
+
+  # ── Panel 2: The paradox (hook) ─────────────────────────────────────────────
+  - page: 2
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Two contradictory statements presented as a tension.
+      Left side: a figure overwhelmed by incoming arrows, waves, icons — sensory
+      flood, everything coming in at once. Label in amber: "Can't filter anything out."
+      Right side: the same figure completely sealed, unreachable, in deep focus —
+      a single amber beam going inward, nothing penetrating from outside.
+      Label in blue: "Can block out the world completely."
+      Between them: a large white question mark suggesting apparent contradiction.
+      Large bold white text at bottom: "How can both be true?"
+      Second line in amber: "Because it's not a filter. It's a door."
+
+  # ── Panel 3: The filter model (NT) ─────────────────────────────────────────
+  - page: 3
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Blue tones. A horizontal gradient slider or mesh
+      filter — a fine grid that lets some signals through at varying intensities.
+      Multiple signal streams on the left, each passing through the mesh at
+      different strengths — some strong, some attenuated, some blocked. The
+      output on the right is a balanced, proportional mix. The filter is
+      adjustable, continuous, gradient-based. Label: "FILTER MODEL"
+      Sub-label in white: "Proportional. Adjustable. Continuous."
+      Large white text at bottom: "A filter lets some things through."
+      Second line in blue: "It can be set to any level."
+
+  # ── Panel 4: The door model ─────────────────────────────────────────────────
+  - page: 4
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Amber tones. A large simple door icon, centered.
+      The door has only two states shown: fully open (left half of panel) —
+      everything floods in, many arrows and signals pouring through. Fully
+      closed (right half of panel) — nothing passes, complete silence on the
+      other side. No intermediate position exists. A small label between the
+      two states: "No gradient. Binary only."
+      Label at top in amber: "THE DOOR MODEL"
+      Sub-label in white: "Open or closed. Nothing in between."
+      Large white text at bottom: "The autistic preconscious gate"
+      Second line in amber: "is not adjustable. It's binary."
+
+  # ── Panel 5: Mode 1 — Door open (flood) ────────────────────────────────────
+  - page: 5
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Amber tones. A wide open door with everything
+      flooding in — sensory signals, social cues, sounds, light, data streams,
+      all represented as colored shapes and waves pouring through simultaneously.
+      A small figure inside, surrounded by the flood, running a continuous
+      radar scan. Energy bar partially depleted.
+      Small amber label at top: "MODE 1: DOOR OPEN"
+      Large white text at bottom: "Everything in. Unfiltered. High gain."
+      Second line in amber: "The background hum. The radar that never stops."
+
+  # ── Panel 6: Mode 2 — Door closed (monotropism) ────────────────────────────
+  - page: 6
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. Deep blue tones. A closed door on the left — signals
+      and interruptions bouncing off it, unable to enter. On the right: a figure
+      at depth, a single intense amber beam of focus going deep into one subject.
+      Rich knowledge network visible at the depth of the beam. Outside the beam:
+      complete silence. Nothing penetrating.
+      Small blue label at top: "MODE 2: DOOR CLOSED"
+      Large white text at bottom: "One thing. Full depth. Unreachable."
+      Second line in amber: "Not ignoring. The door is closed."
+
+  # ── Panel 7: Mode 3 — Door slammed (shutdown) ──────────────────────────────
+  - page: 7
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A door slamming shut — motion lines showing the
+      force of the slam. Outside the door: a flood of signals, overload,
+      too much input accumulated over time. Inside: silence, stillness, a
+      figure in a curled or resting position. The slam is protective, not
+      aggressive. A small label on the door: "SYSTEM PROTECTION"
+      Small amber label at top: "MODE 3: DOOR SLAMMED SHUT"
+      Large white text at bottom: "Not a failure. Not a choice."
+      Second line in amber: "The system protecting the core."
+
+  # ── Panel 8: The masking cost ───────────────────────────────────────────────
+  - page: 8
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A figure straining to hold a door manually at
+      an intermediate position — neither fully open nor fully closed. The
+      door is visibly resisting, wanting to snap to one extreme or the other.
+      The figure's arms are braced against it, energy draining rapidly —
+      battery bar nearly empty. Sweat lines or strain indicators showing
+      the effort. Around the door: a normal social environment, people
+      talking, nobody seeing the struggle.
+      Small amber label at top: "MASKING: FIGHTING THE MECHANISM"
+      Large white text at bottom: "Holding a binary door at a gradient"
+      Second line in amber: "it was never designed to hold."
+
+  # ── Panel 9: Landing ────────────────────────────────────────────────────────
+  - page: 9
+    scene: full-panel
+    prompt: >
+      Flat vector graphic. A single large door icon, clean and minimal.
+      Three small icons arranged around it showing the three modes:
+      top left — door wide open with flood arrows (MODE 1: AMBIANT FLOOD).
+      top right — door closed with depth beam below (MODE 2: HYPERFOCUS).
+      bottom center — door with slam motion lines (MODE 3: SHUTDOWN).
+      All three pointing back to the same door. No filter. No gradient.
+      Just a door.
+      Large bold white text centered below: "Same door. Three modes."
+      Second line in amber: "Not a filter. A binary gate."
+      Small white text at very bottom: "raphink.info/autism"
