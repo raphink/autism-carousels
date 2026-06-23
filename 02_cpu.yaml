@@ -85,10 +85,11 @@ panels:
     prompt: >
       Split panel divided by a thin vertical white line. Left side (blue
       tones): a simple white outline figure in a social scene, relaxed
-      expression, speech bubbles around. Energy bar at bottom nearly full,
+      expression, speech bubbles around. On top of the head, a small blue horizontal box says AUTOMATIC.
+      Energy bar at bottom nearly full,
       colored blue. Right side (amber tones): identical white outline figure
-      in the same social scene, same relaxed expression — but inside the head
-      a small amber sequential processing diagram (HEAR → PROCESS → RESPOND).
+      in the same social scene, same relaxed expression — but above the head
+      a small amber horizontal sequential processing diagram (ANALYZE → PROCESS → RESPOND).
       Energy bar at bottom nearly empty, colored amber. Figures must have
       normal head proportions — not oversized. Flat vector style, no
       photorealism, no painterly illustration.
