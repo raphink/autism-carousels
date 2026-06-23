@@ -76,26 +76,28 @@ panels:
   # ── Panel 6: Mode 2 — Door closed (monotropism) ────────────────────────────
   - page: 6
     scene: full-panel
+    continue: 5
     prompt: >
-      Flat vector graphic. Deep blue tones. A closed door on the left — signals
-      and interruptions bouncing off it, unable to enter. On the right: a figure
-      at depth, a single intense amber beam of focus going deep into one subject.
-      Rich knowledge network visible at the depth of the beam. Outside the beam:
-      complete silence. Nothing penetrating.
-      Small blue label at top: "MODE 2: DOOR CLOSED"
+      Flat vector graphic. Deep blue tones. A closed door in the center with signals
+      and interruptions bouncing off it from the left, unable to enter.
+      On the right: a figure at depth, a single intense amber beam of focus going deep into one subject.
+      Rich knowledge network visible at the depth of the beam (no equations).
+      Outside the beam: complete silence. Nothing penetrating.
+      Small blue label at top: "MODE 2: DOOR CLOSED / HYPERFOCUS"
       Large white text at bottom: "One thing. Full depth. Unreachable."
       Second line in amber: "Not ignoring. The door is closed."
 
   # ── Panel 7: Mode 3 — Door slammed (shutdown) ──────────────────────────────
   - page: 7
     scene: full-panel
+    continue: 6
     prompt: >
-      Flat vector graphic. A door slamming shut — motion lines showing the
-      force of the slam. Outside the door: a flood of signals, overload,
+      Flat vector graphic. A door slamming shut in the center, with motion lines showing the
+      force of the slam. Outside the door on the left: a flood of signals towards the door, overload,
       too much input accumulated over time. Inside: silence, stillness, a
       figure in a curled or resting position. The slam is protective, not
       aggressive. A small label on the door: "SYSTEM PROTECTION"
-      Small amber label at top: "MODE 3: DOOR SLAMMED SHUT"
+      Small amber label at top: "MODE 3: DOOR SLAMMED SHUT / SHUTDOWN"
       Large white text at bottom: "Not a failure. Not a choice."
       Second line in amber: "The system protecting the core."
 
@@ -108,9 +110,10 @@ panels:
       door is visibly resisting, wanting to snap to one extreme or the other.
       The figure's arms are braced against it, energy draining rapidly —
       battery bar nearly empty. Sweat lines or strain indicators showing
-      the effort. Around the door: a normal social environment, people
+      the effort. On the right of the door: a normal social environment, people
       talking, nobody seeing the struggle.
-      Small amber label at top: "MASKING: FIGHTING THE MECHANISM"
+      On the left of the door: a calming, quiet environment.
+      Small amber label at top: "MASKING = FIGHTING THE MECHANISM"
       Large white text at bottom: "Holding a binary door at a gradient"
       Second line in amber: "it was never designed to hold."
 
