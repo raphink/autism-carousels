@@ -1,0 +1,133 @@
+imports:
+  - raphael_jimena.yaml
+
+output_dir: generated/not-hurt-not-tired/
+
+scenes:
+  street:
+    description: "A quiet residential street or sidewalk, walking together"
+    prompt_prefix: >
+      Watercolor comic panel on a quiet sidewalk, soft daylight, illustrated
+      style, {framing}.
+      Caption text at the top reads: "{caption}".
+    vars:
+      framing: "medium two-shot"
+      caption: ""
+    characters:
+      - raphael
+      - jimena
+      - cane
+
+  party:
+    description: "A social gathering, blurred guests in the background"
+    prompt_prefix: >
+      Watercolor comic panel at an indoor social gathering, other people
+      blurred in the background, warm golden light, illustrated style,
+      {framing}.
+      Caption text at the top reads: "{caption}".
+    vars:
+      framing: "medium shot"
+      caption: ""
+    characters:
+      - raphael
+      - jimena
+      - cane
+
+panels:
+  - page: 0
+    prompt: >
+      Decorative title card. Warm parchment-yellow watercolor background.
+      Two faint, softly overlapping silhouettes suggested in outline only
+      (jimena walking with a cane, raphael standing in a crowd), barely
+      visible texture, not detailed figures. Large elegant text reads
+      "Appearances and Mechanisms". No clearly rendered characters. Vintage,
+      inviting feel.
+    characters: [raphael, jimena, cane]
+
+  - page: 1
+    scene: street
+    vars:
+      framing: "medium shot, a passerby facing Jimena and Raphaël"
+      caption: "It's not always what it looks like"
+    prompt: >
+      Raphaël and Jimena walking together down the sidewalk. Jimena holds a
+      wooden-handled cane in her right hand, visible and unmistakable. A
+      third person, clearly visible (not blurred), stands facing them,
+      mid-sentence, gesturing slightly toward Jimena's cane with genuine
+      curiosity and mild concern, actively asking the question, mouth open
+      as if speaking, not just glancing. A speech bubble from this person
+      reads: "Did you hurt your leg?" Jimena's own expression is neutral,
+      unbothered, used to the question. No thought bubble anywhere in this
+      panel.
+
+  - page: 2
+    scene: street
+    vars:
+      framing: "close-up on Jimena, lower body and face"
+      caption: "Walking isn't automatic for my wife. Every step is conscious, planned."
+    characters:
+      - jimena
+    prompt: >
+      Close-up on Jimena mid-stride, focus split between her face and her
+      legs. Her expression shows quiet, practiced concentration, not
+      distress. A small thought bubble above her reads: "Lift the leg...
+      extend the leg... extend the knee... put the foot down..." Her cane is
+      planted firmly, weight balanced through it. No injury, no wound, no
+      visible cause for concern, just deliberate, sequenced movement.
+
+  - page: 3
+    scene: street
+    vars:
+      framing: "close-up on Jimena's leg and a small stone on the pavement"
+      caption: "Some signals still arrive too late. Years of practice haven't changed that."
+    characters:
+      - jimena
+    prompt: >
+      Close-up shot showing a small stone or uneven paving tile just ahead of
+      Jimena's foot. The tip/toe of her shoe catches on the stone as her foot
+      comes down, not the heel. Her body is stiff and pitching forward from
+      the catch, weight thrown ahead of her, her cane already moving to catch
+      her balance. Her face shows calm, practiced reaction rather than alarm,
+      this is familiar to her. No dramatic fall, just a small, immediate
+      forward stumble already being corrected.
+
+  - page: 4
+    scene: party
+    vars:
+      framing: "medium shot"
+      caption: "Conversation isn't automatic for me either. Every exchange is read, not felt."
+    characters:
+      - raphael
+    prompt: >
+      Raphaël standing in a small group at a gathering, talking actively,
+      engaged but with a contained, not very expressive face. Blurred people
+      around him. A small thought bubble above him reads: "She smiles, it's
+      not a big deal... he looks at his watch, maybe I have to wrap up... am
+      I speaking too loudly?"
+
+  - page: 5
+    scene: party
+    vars:
+      framing: "medium shot, slight shift in his expression"
+      caption: "Some signals still slip past, no matter how closely I watch."
+    characters:
+      - raphael
+    prompt: >
+      Same gathering, moments later. Raphaël's expression shows a small,
+      private flicker of uncertainty, eyes briefly unfocused, as if he just
+      missed something subtle in the exchange. No exaggerated distress, no
+      visible mistake to onlookers, just a quiet internal beat of having
+      missed a cue.
+
+  - page: 6
+    scene: street
+    vars:
+      framing: "wide two-shot, walking together, ordinary"
+      caption: "Autism: an invisible mechanism, constant adaptation, unexpected trips."
+    prompt: >
+      Raphaël and Jimena walking together down the same sidewalk as the
+      opening panel, ordinary and unremarkable, mid-conversation, cane in her
+      hand. No thought bubbles, no dramatic lighting, nothing different from
+      any other day. The panel reads as plain and matter-of-fact, not
+      conclusive or emotional.
+      Small centered text at the bottom reads: "raphink.info/autism".

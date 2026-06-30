@@ -1,0 +1,137 @@
+imports:
+  - raphael_jimena.yaml
+
+output_dir: generated/improvisation-on-the-spectrum/
+
+scenes:
+  music_room:
+    description: "A warm living room with an upright piano"
+    prompt_prefix: >
+      Watercolor comic panel in a warm living room with an upright piano and
+      sheet music on the stand, {framing}, soft warm light, illustrated style.
+      Caption text at the top reads: "{caption}".
+    vars:
+      framing: "medium shot"
+      caption: ""
+    characters:
+      - raphael
+      - jimena
+
+  hallway:
+    description: "A social hallway or corridor with blurred people in the background"
+    prompt_prefix: >
+      Watercolor comic panel in a bright social corridor, other people blurred
+      in the background, {framing}, warm golden light, illustrated style.
+    vars:
+      framing: "medium shot"
+    characters:
+      - raphael
+
+panels:
+  - page: 0
+    prompt: >
+      Decorative title card. Warm parchment-yellow watercolor background.
+      Flowing teal musical staff lines and scattered teal music notes float
+      across the frame. Large elegant text reads "Improvisation on the
+      Spectrum". No characters. Vintage, inviting feel.
+
+  - page: 1
+    scene: music_room
+    vars:
+      framing: "medium two-shot"
+      caption: "When it comes to music, I improvise easily..."
+    prompt: >
+      Raphaël stands playing a silver flute, eyes closed, relaxed and absorbed.
+      Jimena sits at the piano beside him, playing as well, calm and attentive.
+
+  - page: 2
+    scene: music_room
+    continue: 1
+    vars:
+      framing: "medium two-shot"
+      caption: "My wife, on the other hand, relies on the precise notes she's learned."
+    prompt: >
+      Same room. Raphaël on the left with flute raised, facing slightly away.
+      Jimena at the piano looking anxious — eyebrows raised, wide eyes, worried
+      frown — as if the improvisation is throwing her off. She is not looking at
+      Raphaël.
+
+  - page: 3
+    scene: music_room
+    continue: 2
+    vars:
+      framing: "close-up"
+      caption: "If I play the wrong note..."
+    characters:
+      - raphael
+    prompt: >
+      Close-up on Raphaël from mid-torso up, playing the flute, expression
+      neutral and focused. Jimena softly blurred in the background at the piano.
+
+  - page: 4
+    scene: music_room
+    continue: 3
+    vars:
+      framing: "close-up"
+      caption: "I just improvise my way through it."
+    characters:
+      - raphael
+    prompt: >
+      Same framing as page 3. Raphaël continues playing the flute, expression
+      calm and untroubled. Small teal music notes float from the flute in a
+      loose swirl. Jimena blurred in background. Keep Raphaël consistent.
+
+  - page: 5
+    scene: hallway
+    characters:
+      - jimena
+    prompt: >
+      Jimena in the foreground, smiling warmly, one hand raised in a friendly
+      wave. A speech bubble reads: "Oh sorry, I hadn't seen you before!"
+      She faces a partially visible person at the right edge of frame.
+      Caption text at the top reads: "My wife can improvise when she makes social mistakes."
+
+  - page: 6
+    scene: hallway
+    continue: 5
+    characters:
+      - raphael
+    prompt: >
+      Raphaël centered, mid-torso shot. Expression frozen and distressed —
+      furrowed brows, downturned mouth. Both hands raised slightly at his sides,
+      palms up, helpless.
+      Caption text at the top reads: "But when I make a mistake socially, I freeze."
+
+  - page: 7
+    scene: hallway
+    continue: 6
+    characters:
+      - raphael
+    prompt: >
+      Raphaël stands with arms crossed, expression troubled, looking to one
+      side. A thought bubble above his head reads: "I saw this person before
+      but didn't greet them. Should I say hi now, or is it awkward?"
+      People visible as soft blurred silhouettes in background.
+
+  - page: 8
+    scene: hallway
+    continue: 7
+    characters:
+      - raphael
+    prompt: >
+      Close two-shot. A younger man (brown hair, brown t-shirt, no glasses)
+      on the left faces Raphaël on the right. The younger man looks confused
+      and slightly alarmed, one hand gesturing outward. Speech bubble from
+      younger man: "Why are you looking at me like that?" Raphaël looks caught
+      off guard, wide-eyed, a drop of sweat on his temple.
+
+  - page: 9
+    scene: hallway
+    continue: 8
+    characters:
+      - raphael
+    prompt: >
+      Raphaël stands alone, facing the viewer, expression open but uncertain.
+      One hand raised palm-up in a resigned gesture. Blurred group of people
+      in the background. Slightly muted tones. Keep Raphaël consistent.
+      Caption text at the top reads: "I can navigate social interactions by rules, but improvising often leads to awkward situations."

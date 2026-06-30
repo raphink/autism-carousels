@@ -1,0 +1,29 @@
+style: comic-style.txt
+
+defaults:
+  size: 1024x1024
+  quality: medium
+  assemble: true
+
+characters:
+  raphael:
+    prompt: "Bearded man in his early 40s with rectangular glasses, short brown hair. No logo on shirt."
+    refs:
+      - refs/20260617_102710.jpg
+      - refs/IMG_20251206_222709703.jpg
+      - refs/IMG-20260325-WA0005.jpeg
+      - refs/raphael.png
+
+  jimena:
+    prompt: "Very thin short colombian woman in her 40s with long dark wavy hair and rectangular glasses. Yellow colombian leather bag."
+    refs:
+      - refs/20260515_181012.jpg
+      - refs/IMG_20260328_194111335.jpg
+      - refs/IMG_20260402_151422433.jpg
+      - refs/jimena-side.png
+      - characters/jimena-3.png
+
+  cane:
+    prompt: "A walking cane with a plastic handle and a metal shaft."
+    refs:
+      - refs/cane.jpg
