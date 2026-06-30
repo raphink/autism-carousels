@@ -110,13 +110,15 @@ panels:
     scene: party
     vars:
       framing: "medium shot"
-      caption: "Conversation isn't automatic for me either. Every exchange is read, not felt."
+      caption: "For me, it is reading emotions that isn't automatic. Every exchange is read, not felt."
     characters:
       - raphael
     prompt: >
       Raphaël standing in a small group at a gathering, talking actively,
       engaged but with a contained, not very expressive face. Blurred people
-      around him. A small thought bubble above him reads: "She smiles, it's
+      around him.
+      He's in a conversation with Jimena and another guy checking his watch.
+      A small thought bubble above Raphaël reads: "She smiles, it's
       not a big deal... he looks at his watch, maybe I have to wrap up... am
       I speaking too loudly?"
 
@@ -124,7 +126,7 @@ panels:
     scene: party
     vars:
       framing: "medium shot, slight shift in his expression"
-      caption: "Some signals still slip past, no matter how closely I watch."
+      caption: "Some signals slip past, no matter how closely I watch."
     characters:
       - raphael
     prompt: >
@@ -156,7 +158,9 @@ panels:
     scene: street
     vars:
       framing: "wide two-shot, walking together, ordinary"
-      caption: "Autism: an invisible mechanism, constant adaptation, unexpected trips."
+      caption: "Demyelination and autism:\ntwo invisible mechanisms, constant adaptation, unexpected trips."
+    refs:
+      - generated/not-hurt-not-tired/page_8_medium-3.png
     prompt: >
       Raphaël and Jimena walking together down the same sidewalk as the
       opening panel, ordinary and unremarkable, mid-conversation, cane in her
