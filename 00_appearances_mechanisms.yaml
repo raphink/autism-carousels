@@ -92,6 +92,21 @@ panels:
       forward stumble already being corrected.
 
   - page: 4
+    prompt: >
+      Clean medical schematic illustration, watercolor and ink style, warm
+      parchment background. Two side-by-side diagrams of a nerve axon.
+      Left diagram labeled "Healthy nerve": axon surrounded by a thick,
+      intact myelin sheath, a clean arrow showing strong signal transmission
+      along the nerve. Right diagram labeled "Demyelination": same axon with
+      patchy, thinned myelin sheath, signal arrow shown fragmented or faded,
+      indicating incomplete transmission. Below both diagrams, a simple
+      caption in clean sans-serif text reads: "Demyelination reduces nerve
+      signal speed and reliability. The local reflex arc fires faster than
+      the signal reaches the brain — leaving no time for conscious
+      correction." No characters. Diagrammatic, precise, not clinical or
+      cold.
+
+  - page: 5
     scene: party
     vars:
       framing: "medium shot"
@@ -105,7 +120,7 @@ panels:
       not a big deal... he looks at his watch, maybe I have to wrap up... am
       I speaking too loudly?"
 
-  - page: 5
+  - page: 6
     scene: party
     vars:
       framing: "medium shot, slight shift in his expression"
@@ -119,7 +134,25 @@ panels:
       visible mistake to onlookers, just a quiet internal beat of having
       missed a cue.
 
-  - page: 6
+  - page: 7
+    prompt: >
+      Clean neuroscience schematic illustration, watercolor and ink style,
+      warm parchment background. A simplified side-view outline of a human
+      brain. Two regions highlighted: a lower/subcortical region labeled
+      "Preconscious processing" (shown with reduced or absent filtering
+      activity, indicated by sparse or missing signal lines), and the
+      prefrontal cortex labeled "Conscious processing" (shown with dense,
+      overloaded signal lines arriving from below). Arrows indicate signals
+      — facial expressions, tone of voice, social context — flowing upward
+      unfiltered, bypassing the preconscious stage and arriving in bulk at
+      the conscious layer. A caption in clean sans-serif text reads:
+      "In autism, social and emotional signals are not pre-filtered before
+      reaching conscious awareness. What is automatic for most people
+      requires active, deliberate processing — with the same risk of
+      arriving too late." No characters. Diagrammatic, precise, not
+      clinical or cold.
+
+  - page: 8
     scene: street
     vars:
       framing: "wide two-shot, walking together, ordinary"
